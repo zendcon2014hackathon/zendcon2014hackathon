@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 
 function callAPI($function, $params, $querystring = '') {
     $paramString = '';
