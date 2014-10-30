@@ -4,5 +4,5 @@ applications:
   memory: 256M
   instances: 1
   host: gitrace-${random-word}
-  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
+  buildpack: https://github.com/zendtech/zend-server-php-buildpack-bluemix.git
 
